@@ -3,7 +3,7 @@
   box-sizing: border-box;
   padding-top: 10vh;
   text-align: center;
-  background-image: url('./assets/space.jpg');
+  background-image: url("./assets/space.jpg");
   background-size: cover;
   color: white;
 }
@@ -28,14 +28,15 @@ button {
 .avenger-flex {
   margin-top: 10vh;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .avenger-box {
   height: 150px;
   width: 150px;
-  margin: 0px 20px;
+  margin: 10px;
   border-radius: 15px;
-  background-image: url('./assets/avengers-logo.png');
+  background-image: url("./assets/avengers-logo.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -47,7 +48,7 @@ button {
   width: 100%;
   position: fixed;
   top: 0;
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .add-modal {
